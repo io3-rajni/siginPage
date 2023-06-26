@@ -1,0 +1,16 @@
+.sidebar {
+  display: flex;
+  flex-direction: row;
+  padding: 7px 33px 0px 0px;
+  border: 1px solid black;
+  width: 15%;
+  background-color: aqua;
+  height: 100vh;
+}
+h4,
+.sidebaar-section {
+  display: flex;
+  flex-direction: row;
+  padding: 20px 0px 0px 12px;
+  border-bottom: 1px solid black;
+}

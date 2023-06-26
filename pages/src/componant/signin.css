@@ -1,0 +1,68 @@
+.signinform {
+  height: 62vh;
+  width: 38%;
+  margin: 6% 0%auto 31%;
+  border-radius: 19px;
+  box-shadow: 2px 2px 3px #000;
+  background-color: #c5d4e5;
+  padding: 5rem 4rem;
+  color: #575b8a;
+}
+.userNameBox,
+.passwordDiv {
+  width: 91% !important;
+}
+.passwordDiv {
+  display: flex;
+  text-align: center;
+}
+.showBtn {
+  height: 1rem;
+  margin-top: 1rem;
+}
+.user-name,
+.signin-btn {
+  text-align: center;
+  width: 20rem;
+  height: 2rem;
+  font-size: 1rem;
+  border: none;
+  box-shadow: 2px 2px 0px #575b8a;
+}
+.pswrd {
+  width: 20rem;
+  height: 2rem;
+  text-align: center;
+  font-size: 1rem;
+  margin-top: 1.5rem;
+  border: none;
+
+  box-shadow: 2px 2px 0px #575b8a;
+}
+.user-name:hover,
+.pswrd:hover,
+.signin-btn:hover {
+  color: #fff;
+  background-color: #575d8b;
+}
+.signin-btn {
+  width: 20rem;
+  background-color: #fff;
+  color: #757575;
+  font-size: 0.81rem;
+  margin-top: 1.5rem;
+}
+.font-icon {
+  float: right;
+  padding-top: 7rem;
+  width: 20rem;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 1.5re;
+}
+.social-med-icon {
+  display: flex;
+  justify-content: space-between;
+  width: 6rem;
+  font-size: 1.5rem;
+}
