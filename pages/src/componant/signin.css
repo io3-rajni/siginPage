@@ -1,11 +1,11 @@
 .signinform {
-  height: 62vh;
-  width: 38%;
-  margin: 6% 0%auto 31%;
+  height: 29vh;
+  width: 27%;
+  margin: 6% 0%auto 35%;
   border-radius: 19px;
   box-shadow: 2px 2px 3px #000;
   background-color: #c5d4e5;
-  padding: 5rem 4rem;
+  padding: 4rem 0rem;
   color: #575b8a;
 }
 .userNameBox,
@@ -14,7 +14,7 @@
 }
 .passwordDiv {
   display: flex;
-  text-align: center;
+  /* text-align: center; */
 }
 .showBtn {
   height: 1rem;
@@ -22,7 +22,6 @@
 }
 .user-name,
 .signin-btn {
-  text-align: center;
   width: 20rem;
   height: 2rem;
   font-size: 1rem;
@@ -32,11 +31,10 @@
 .pswrd {
   width: 20rem;
   height: 2rem;
-  text-align: center;
+  /* text-align: center; */
   font-size: 1rem;
-  margin-top: 1.5rem;
+  margin-top: 1rem;
   border: none;
-
   box-shadow: 2px 2px 0px #575b8a;
 }
 .user-name:hover,
@@ -54,7 +52,7 @@
 }
 .font-icon {
   float: right;
-  padding-top: 7rem;
+  padding-top: 2rem;
   width: 20rem;
   display: flex;
   justify-content: space-evenly;
@@ -65,4 +63,5 @@
   justify-content: space-between;
   width: 6rem;
   font-size: 1.5rem;
+  padding-top: 19px;
 }
