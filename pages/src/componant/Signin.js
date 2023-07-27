@@ -88,7 +88,10 @@ const Signin = () => {
         <Navbar />
 
         <form className="signinform" action="" onSubmit={submitForm}>
-          <div className="input-group userNameBox" style={{ display: "flex" }}>
+          <div
+            className="input-group userNameBox"
+            style={{ display: "flex", justifyContent: "center" }}
+          >
             <input
               type="text"
               name="email"
@@ -126,7 +129,10 @@ const Signin = () => {
           >
             {enterValidEmail}
           </p>
-          <div className="passwordDiv" style={{ display: "flex" }}>
+          <div
+            className="passwordDiv"
+            style={{ display: "flex", justifyContent: "center" }}
+          >
             <div className="input-group mb-3 password">
               <input
                 type={showPassword}
@@ -189,26 +195,28 @@ const Signin = () => {
                         >
                         </button> */}
           </div>
-          <input className="signin-btn" type="submit" value="Submit" />
+          <div style={{ display: "flex", justifyContent: "center" }}>
+            <input className="signin-btn" type="submit" value="Submit" />
 
-          {/* <button onMouseOver={() => console.log('test')}>btn</button> */}
-          <IoIosArrowDropright
-            className="icon"
-            style={{
-              position: "relative",
-              right: "0px",
-              top: "11px",
-              height: "2rem",
-              boxShadow: "2px 2px 0px #575B8A",
-              background: "white",
-              color: "#575B8A",
-              width: "2rem",
-              // top: "0.1rem"
-            }}
-            width="10rem"
-            color="white"
-            marginBottom="0.1rem"
-          />
+            {/* <button onMouseOver={() => console.log('test')}>btn</button> */}
+            <IoIosArrowDropright
+              className="icon"
+              style={{
+                position: "relative",
+                right: "0px",
+                top: "24px",
+                height: "2rem",
+                boxShadow: "2px 2px 0px #575B8A",
+                background: "white",
+                color: "#575B8A",
+                width: "2rem",
+                // top: "0.1rem"
+              }}
+              width="10rem"
+              color="white"
+              marginBottom="0.1rem"
+            />
+          </div>
           <div className="font-icon">
             <br />
             <h5>Log In Via</h5>

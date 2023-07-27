@@ -10,7 +10,7 @@
 }
 .userNameBox,
 .passwordDiv {
-  width: 91% !important;
+  /* width: 91% !important; */
 }
 .passwordDiv {
   display: flex;
