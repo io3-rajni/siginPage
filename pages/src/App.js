@@ -9,15 +9,15 @@ import Parent from "./componant/Parent";
 function App() {
   return (
     <div className="main-class">
-      {/* <BrowserRouter>
+      <BrowserRouter>
         <Routes>
           <Route path="/" element={<Signin />}></Route>
           <Route path="/home" element={<Home />}></Route>
           <Route path="/signin" element={<Signin />}></Route>
-          <Route path="/profile" element={<Profile />}></Route> */}
-      {/* <Route path="/service" element={<Service/>}></Route> */}
-      {/* </Routes> */}
-      {/* // </BrowserRouter> */}
+          <Route path="/profile" element={<Profile />}></Route>
+          {/* <Route path="/service" element={<Service />}></Route> */}
+        </Routes>
+      </BrowserRouter>
       <Parent />
     </div>
   );
